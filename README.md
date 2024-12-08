@@ -17,7 +17,7 @@ Este projeto utiliza a biblioteca OpenCV e o modelo de detecção de objetos YOL
 
 1. **Arquivos do modelo YOLO:**
    - `yolov3.cfg` ou `yolov3-tiny.cfg`
-   - `yolov3.weights` ou `yolov3-tiny.weights`
+   - Baixe os arquivos `yolov3.weights` ou `yolov3-tiny.weights` em https://pjreddie.com/darknet/yolo
    - `coco.names`
 2. **Vídeo:**
    - Um arquivo de vídeo ou uma câmera para análise das imagens.
@@ -69,15 +69,14 @@ A função `main`:
   .\env-visao\Scripts\activate
   ```
 3. Instalação de Dependências
-  Certifique-se de que seu ambiente virtual esteja ativado. Instale as dependências listadas no arquivo ```requirements.txt```:
-  ```
-  pip install -r requirements.txt
-  ```
-Conteúdo do arquivo requirements.txt:
-  ```
-  numpy==2.0.0
-  opencv-python==4.10.0.84
-  ```
+   Certifique-se de que seu ambiente virtual esteja ativado. Instale as dependências listadas no arquivo ```requirements.txt```:
+     ```
+     pip install -r requirements.txt
+     ```
+   Conteúdo do arquivo requirements.txt:
+     ```
+     numpy==2.0.0
+     opencv-python==4.10.0.84     ```
 
 4. Execute o script com o comando:
    ```bash
