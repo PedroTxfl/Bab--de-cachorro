@@ -37,7 +37,7 @@ Este projeto utiliza a biblioteca OpenCV e o modelo de detecção de objetos YOL
 A função `carregar_modelo_pretreinado` inicializa e configura o modelo YOLO com os arquivos de configuração e pesos especificados.
 
 ### 2. **Pré-processamento de Frames**
-A função `preprocessar_frame` converte um frame de vídeo em um blob para ser processado pelo modelo YOLO.
+A função `preprocessar_frame` converte um frame de vídeo em um blob(uma representação otimizada da imagem, incluindo normalização e redimensionamento) para ser processado pelo modelo YOLO.
 
 ### 3. **Detecção de Objetos**
 A função `detectar_objetos` utiliza o modelo YOLO para identificar objetos em um frame e retorna as detecções.
