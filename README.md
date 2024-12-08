@@ -54,20 +54,19 @@ A função `main`:
 
 ## Como Executar
 1. Criar o ambiente virtual:
-  ```
-  python -m venv env-visao
-  ```
+     ```
+     python -m venv env-visao
+     ```
 2. Ativar o ambiente virtual:
-  
-  No macOS e Linux:
-  ```
-  source ./env-visao/bin/activate
-  ```
-  No Windows:
-  
-  ```
-  .\env-visao\Scripts\activate
-  ```
+     No macOS e Linux:
+     ```
+     source ./env-visao/bin/activate
+     ```
+     No Windows:
+     
+     ```
+     .\env-visao\Scripts\activate
+     ```
 3. Instalação de Dependências
    Certifique-se de que seu ambiente virtual esteja ativado. Instale as dependências listadas no arquivo ```requirements.txt```:
      ```
@@ -84,9 +83,9 @@ A função `main`:
    ```
 5. O vídeo processado será exibido em uma janela. Pressione `q` para sair.
 6. Quando terminar de trabalhar no projeto, você pode desativar o ambiente virtual com o comando:
-  ```
-  deactivate
-  ```
+     ```
+     deactivate
+     ```
 
 ## Observações
 - O alerta de fuga é acionado caso o cachorro saia da região delimitada por um polígono especificado no código.
